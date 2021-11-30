@@ -9,3 +9,16 @@ body{
     /* border: 1px solid black; */
     border-collapse:separate;
 }
+
+h1{
+    background-color: blueviolet;
+    margin: 0em;
+    padding: 1rem;
+    color: white;
+    border-bottom-left-radius: 2rem;
+}
+
+label{
+    margin-bottom: 0.5rem;
+}
+
