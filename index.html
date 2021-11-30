@@ -12,16 +12,42 @@
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, aspernatur!</p>
     
     <label for="billAmount">Bill Amount:</label>
-    <br>
-    <input id="billAmount" type="text">
+    
+    <input id="billAmount" type="number">
 
     <br>
     <label for="cashGiven">Cash Given:</label>
-    <br>
-    <input id="cashGiven" type="text">
-
     
+    <input id="cashGiven" type="number">
+
+    <br>
     <button id="check-btn">Check</button>
+
+    <p class="message"></p>
+    <table class="table">
+        <tr>
+            <th>Number of Notes</th>
+            <td class="numberOfNotes"></td>
+            <td class="numberOfNotes"></td>
+            <td class="numberOfNotes"></td>
+            <td class="numberOfNotes"></td>
+            <td class="numberOfNotes"></td>
+            <td class="numberOfNotes"></td>
+            <td class="numberOfNotes"></td>
+        </tr>
+        <tr>
+            <th>Note Amount</th>
+            <td class="noteAmount">2000</td>
+            <td class="noteAmount">500</td>
+            <td class="noteAmount">100</td>
+            <td class="noteAmount">20</td>
+            <td class="noteAmount">10</td>
+            <td class="noteAmount">5</td>
+            <td class="noteAmount">1</td>
+        </tr>
+        
+
+    </table>
 </body>
 <script src="index.js"></script>
 </html>
