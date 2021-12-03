@@ -24,7 +24,7 @@ message.style.display="none";
 cashGiven.style.display="none";
 function check(){
 
-    if(cashGiven.value>=0 && billAmount.value.length>=0){
+    if(cashGiven.value>=0 && billAmount.value>=0){
         if(cashGiven.value>=billAmount.value){
             let amountToReturn=cashGiven.value-billAmount.value;
             
@@ -41,7 +41,7 @@ function check(){
         }
     }else{
         message.style.display="block";
-        message.innerText="Please enter valid amount of cash given";
+        message.innerText="Negative values are not allowed";
     }
 }
 
